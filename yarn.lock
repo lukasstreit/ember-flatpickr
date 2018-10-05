@@ -606,6 +606,12 @@ babel-plugin-ember-modules-api-polyfill@^2.3.2:
   dependencies:
     ember-rfc176-data "^0.3.0"
 
+babel-plugin-ember-modules-api-polyfill@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-ember-modules-api-polyfill/-/babel-plugin-ember-modules-api-polyfill-2.5.0.tgz#860aab9fecbf38c10d1fe0779c6979a854fff154"
+  dependencies:
+    ember-rfc176-data "^0.3.5"
+
 babel-plugin-eval@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/babel-plugin-eval/-/babel-plugin-eval-1.0.1.tgz#a2faed25ce6be69ade4bfec263f70169195950da"
@@ -1219,6 +1225,21 @@ broccoli-babel-transpiler@^5.6.2:
 broccoli-babel-transpiler@^6.0.0, broccoli-babel-transpiler@^6.4.5:
   version "6.4.5"
   resolved "https://registry.yarnpkg.com/broccoli-babel-transpiler/-/broccoli-babel-transpiler-6.4.5.tgz#caab4a3b18d2a819fdd56e1ac3a37e8164ad4272"
+  dependencies:
+    babel-core "^6.26.0"
+    broccoli-funnel "^2.0.1"
+    broccoli-merge-trees "^2.0.0"
+    broccoli-persistent-filter "^1.4.3"
+    clone "^2.0.0"
+    hash-for-dep "^1.2.3"
+    heimdalljs-logger "^0.1.7"
+    json-stable-stringify "^1.0.0"
+    rsvp "^4.8.2"
+    workerpool "^2.3.0"
+
+broccoli-babel-transpiler@^6.5.0:
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/broccoli-babel-transpiler/-/broccoli-babel-transpiler-6.5.0.tgz#aa501a227b298a99742fdd0309b1eaad7124bba0"
   dependencies:
     babel-core "^6.26.0"
     broccoli-funnel "^2.0.1"
@@ -2392,6 +2413,24 @@ ember-cli-babel@^6.0.0-beta.4, ember-cli-babel@^6.0.0-beta.7, ember-cli-babel@^6
     ember-cli-version-checker "^2.1.2"
     semver "^5.5.0"
 
+ember-cli-babel@^6.16.0:
+  version "6.17.2"
+  resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-6.17.2.tgz#f0d53d2fb95e70c15d8db84760d045f88f458f69"
+  dependencies:
+    amd-name-resolver "1.2.0"
+    babel-plugin-debug-macros "^0.2.0-beta.6"
+    babel-plugin-ember-modules-api-polyfill "^2.5.0"
+    babel-plugin-transform-es2015-modules-amd "^6.24.0"
+    babel-polyfill "^6.26.0"
+    babel-preset-env "^1.7.0"
+    broccoli-babel-transpiler "^6.5.0"
+    broccoli-debug "^0.6.4"
+    broccoli-funnel "^2.0.0"
+    broccoli-source "^1.1.0"
+    clone "^2.0.0"
+    ember-cli-version-checker "^2.1.2"
+    semver "^5.5.0"
+
 ember-cli-broccoli-sane-watcher@^2.0.4:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/ember-cli-broccoli-sane-watcher/-/ember-cli-broccoli-sane-watcher-2.1.1.tgz#1687adada9022de26053fba833dc7dd10f03dd08"
@@ -2421,9 +2460,9 @@ ember-cli-code-coverage@1.0.0-beta.1:
     rsvp "^4.8.1"
     walk-sync "^0.3.2"
 
-ember-cli-dependency-checker@^2.0.0:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/ember-cli-dependency-checker/-/ember-cli-dependency-checker-2.2.1.tgz#1eb728258dc7d528951c391d39b365e1beedecca"
+ember-cli-dependency-checker@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/ember-cli-dependency-checker/-/ember-cli-dependency-checker-3.0.0.tgz#61245f5f79f881dece043303111d5f41efb8621f"
   dependencies:
     chalk "^2.3.0"
     find-yarn-workspace-root "^1.1.0"
@@ -2505,6 +2544,15 @@ ember-cli-htmlbars@^2.0.1, ember-cli-htmlbars@^2.0.3:
   dependencies:
     broccoli-persistent-filter "^1.0.3"
     hash-for-dep "^1.0.2"
+    json-stable-stringify "^1.0.0"
+    strip-bom "^3.0.0"
+
+ember-cli-htmlbars@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/ember-cli-htmlbars/-/ember-cli-htmlbars-3.0.1.tgz#01e21f0fd05e0a6489154f26614b1041769e3e58"
+  dependencies:
+    broccoli-persistent-filter "^1.4.3"
+    hash-for-dep "^1.2.3"
     json-stable-stringify "^1.0.0"
     strip-bom "^3.0.0"
 
@@ -2771,13 +2819,13 @@ ember-maybe-in-element@^0.1.3:
   dependencies:
     ember-cli-babel "^6.11.0"
 
-ember-power-select@^2.0.1:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/ember-power-select/-/ember-power-select-2.0.4.tgz#862e3993668b27190da288514693559bae70c4c7"
+ember-power-select@^2.0.9:
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/ember-power-select/-/ember-power-select-2.0.9.tgz#ebe08f7d3f2fdec44558370adaa6b533486132b5"
   dependencies:
     ember-basic-dropdown "^1.0.0"
-    ember-cli-babel "^6.11.0"
-    ember-cli-htmlbars "^2.0.1"
+    ember-cli-babel "^6.16.0"
+    ember-cli-htmlbars "^3.0.0"
     ember-concurrency "^0.8.19"
     ember-text-measurer "^0.4.0"
     ember-truth-helpers "^2.0.0"
@@ -2810,6 +2858,10 @@ ember-rfc176-data@^0.3.0, ember-rfc176-data@^0.3.1, ember-rfc176-data@^0.3.3:
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/ember-rfc176-data/-/ember-rfc176-data-0.3.3.tgz#27fba08d540a7463a4366c48eaa19c5a44971a39"
 
+ember-rfc176-data@^0.3.5:
+  version "0.3.5"
+  resolved "https://registry.yarnpkg.com/ember-rfc176-data/-/ember-rfc176-data-0.3.5.tgz#f630e550572c81a5e5c7220f864c0f06eee9e977"
+
 ember-router-generator@^1.2.3:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/ember-router-generator/-/ember-router-generator-1.2.3.tgz#8ed2ca86ff323363120fc14278191e9e8f1315ee"
@@ -2828,9 +2880,9 @@ ember-source-channel-url@^1.0.1:
   dependencies:
     got "^8.0.1"
 
-ember-source@~3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/ember-source/-/ember-source-3.3.0.tgz#84f7ad29378868503ca108c7512387b1fc63c05a"
+ember-source@~3.4.0:
+  version "3.4.5"
+  resolved "https://registry.yarnpkg.com/ember-source/-/ember-source-3.4.5.tgz#f4a5975affd393c29a69afaa58c2ca9de8bba6c0"
   dependencies:
     broccoli-funnel "^2.0.1"
     broccoli-merge-trees "^2.0.0"
