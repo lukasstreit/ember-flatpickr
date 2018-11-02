@@ -54,7 +54,6 @@ export default Component.extend({
       assign(options, {
         defaultDate: this.get('date'),
         onChange: this._onChange.bind(this),
-        onValueUpdate: this._onChange.bind(this),
         onClose: this._onClose.bind(this),
         onOpen: this._onOpen.bind(this),
         onReady: this._onReady.bind(this)
